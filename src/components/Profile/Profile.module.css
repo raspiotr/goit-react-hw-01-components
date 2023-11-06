@@ -1,0 +1,81 @@
+.profile {
+  background-color: #e2e2e246;
+  margin: 50px auto;
+  width: 250px;
+  display: flex;
+  flex-direction: column;
+  box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5);
+  border: 1px solid rgba(179, 177, 177, 0.459);
+  border-radius: 2%;
+}
+
+.description {
+  margin-top: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.avatar {
+  margin-top: 20px;
+  width: 40%;
+  margin: auto;
+  border-radius: 50%;
+  background-color: rgba(125, 167, 204, 0.637);
+}
+
+.name {
+  font-size: 20px;
+  font-weight: 600;
+
+  margin-top: 20px;
+}
+
+.tag {
+  font-size: 15px;
+  color: rgba(128, 128, 128, 0.733);
+  margin-top: 5px;
+}
+
+.location {
+  font-size: 15px;
+  color: rgba(128, 128, 128, 0.733);
+  margin-top: 5px;
+}
+
+.stats {
+  margin-top: 25px;
+  border: 1px solid rgba(179, 177, 177, 0.459);
+}
+
+.statsList {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: rgb(238, 238, 238);
+}
+
+.listItem {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2px;
+}
+
+.listItem:not(:last-child) {
+  border-right: 1px solid rgba(179, 177, 177, 0.459);
+}
+
+.label {
+  margin-top: 15px;
+  font-size: 14px;
+  color: rgba(128, 128, 128, 0.733);
+}
+
+.quantity {
+  font-size: 15px;
+  font-weight: 700;
+  margin-bottom: 15px;
+}
