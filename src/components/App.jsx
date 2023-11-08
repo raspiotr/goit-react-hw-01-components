@@ -8,6 +8,9 @@ import { groupByLabel } from './Statistics/Statistics';
 import { FriendList } from './FriendList/FriendList';
 import friends from './FriendList/friends.json';
 
+import { TransactionHistory } from './TransactionHistory/TransactionHistory';
+import transactions from './TransactionHistory/transactions.json';
+
 const reducedData = groupByLabel(data);
 
 export const App = () => {
@@ -22,6 +25,7 @@ export const App = () => {
       />
       <Statistics title="Upload stats" stats={reducedData} />
       <FriendList friends={friends} />
+      <TransactionHistory items={transactions} />
     </>
   );
 };
