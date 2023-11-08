@@ -1,0 +1,42 @@
+.item {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  width: 250px;
+  box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5);
+  border: 1px solid rgba(179, 177, 177, 0.459);
+  border-radius: 2%;
+  margin: auto;
+  box-sizing: border-box;
+  padding: 5px 10px;
+  background-color: rgba(245, 245, 220, 0.253);
+}
+
+.avatar {
+  background-color: rgba(127, 255, 212, 0.349);
+  width: 65px;
+  border-radius: 5px;
+  box-sizing: border-box;
+  padding: 5px;
+}
+
+.name {
+  font-weight: 600;
+  font-size: 22px;
+}
+
+.status {
+  width: 18px;
+  height: 18px;
+  border-radius: 50%;
+}
+
+.statusOn {
+  composes: status;
+  background-color: green;
+}
+
+.statusOff {
+  composes: status;
+  background-color: red;
+}
